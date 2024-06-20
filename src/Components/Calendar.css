@@ -3,3 +3,49 @@
     width:1223px ;
     height:1080px;
 }
+
+.calendar-panel{
+    width: 780px;
+    height: 880px;
+    margin-left: 25px;
+    margin-top: 43px;
+
+    border-radius:32px;
+    background-color: rgba(255, 255, 255, 1);
+    align-items: center;
+}
+
+.calendar-month,.calendar-year{
+    font-family: "inter",sans-serif;
+    font-weight: 900;
+    font-size:48px;
+    color:rgba(0, 0, 0, 1);
+}
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    padding-top: 50px;
+    padding-right: 40px;
+    margin-left: 30px;
+    margin-right: 25px;
+  }
+
+
+.calendar-change{
+
+    padding-left: 300px;
+    gap:40px;
+}
+
+.days{
+    margin-top:20px;
+    margin-left: 50px;
+    font-weight: 600;
+    font-size: 28px;
+    display: flex;
+    flex-direction: row;
+    gap:65px;
+}
