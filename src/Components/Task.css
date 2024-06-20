@@ -1,0 +1,35 @@
+.taskpanel{
+    background-color:rgba(94, 211, 236, 1) ;
+    width:697px ;
+    height:1080px;
+}
+
+.dmy-frame{
+    margin-left: 285px;
+    margin-top: 46px;
+    width: 384px;
+    height: 172px;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 10px;
+}
+
+.current-date{
+font-size: 144px;
+padding-top: 10px;
+}
+
+.current-month, .current-year{
+ font-size: 48px;
+
+}
+
+.month-year{
+    padding-top: 10px;
+    display: block;
+    align-items: center;
+}
+
